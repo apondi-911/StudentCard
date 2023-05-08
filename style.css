@@ -1,0 +1,162 @@
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cbebcd;
+}
+.container {
+  position: relative;
+  background-image: url("/images/bg2.jpg");
+  /* opacity: 0.8; */
+  background-size: cover;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+  position: relative;
+  
+}
+
+.logo img {
+  width: 98px;
+  margin-top: 40px;
+  
+}
+header .profile{
+    max-width: 220px;
+    max-height: 220px;
+    margin-right: -220px;
+    margin-top: -20px;
+    height: 160px;
+    display: flex;
+    position: relative;
+}
+
+header .safaricard{
+  max-width: 160px;
+  max-height: 160px;
+  margin-top: 40px;
+  position:relative;
+  display: flex;
+  margin-right: -10px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform:uppercase;
+  margin-top: 0px;
+  text-align: center;
+}
+h5 {
+    color: #1a0404;
+    font-style: normal;
+    margin-right: 30px;
+    margin-top: 0px;
+    text-transform:uppercase;
+    
+}
+.chip {
+  width: 80px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  margin-top: -30px;
+
+}
+.chip img{
+  width:100%;
+  height: 100%;
+}
+/* header .profile{
+    max-width: 250px;
+    max-width: 100px;
+ 
+
+} */
+h6 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+}
+span, h6.card-address{
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -50px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+/* h6.card-number{
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 0px;
+} */
+h6.valid{
+   color: #180101;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+}
+h5.number {
+  margin-top: 0px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  color:rgb(251,182,0);
+}
+h5.name {
+  margin-top: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+h5.date{
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  
+}
+
+.valid-date{
+  margin-right: 26px;
+}
+.details{
+  color: #000000;
+  font-weight: 600;
+  font-size: 12px;
+ 
+}
+.container .card-details {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: -16px;
+  height: 20px;
+}
+.container{
+  height: 310px;
+}
