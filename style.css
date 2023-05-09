@@ -16,7 +16,7 @@ body {
 }
 .container {
   position: relative;
-  background-image: url("/images/bg2.jpg");
+/*   background-image: url("/images/bg2.jpg"); */
   background-size: cover;
   padding: 25px;
   display: flex;
